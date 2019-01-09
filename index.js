@@ -22,9 +22,11 @@ function happyHolidayTo(holiday, name){
 }
 happyHolidayTo("Christmas", "Kerri");
 
-/* Write a function named holidayCountdown. This function should accept two parameters, the holiday name and number of days till that holiday. The function should return the string `It's ${days} days until ${holiday}!` */
+/* Write a function named holidayCountdown. This function should accept two parameters, 
+the holiday name and number of days till that holiday. The function should return the string
+ `It's ${days} days until ${holiday}!` */
 
 function holidayCountdown(holiday, days){
-
+  return `It's ${days} days until ${holiday}!`
 }
 holidayCountdown("Mother's Day", 43)
